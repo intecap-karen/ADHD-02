@@ -1,0 +1,78 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+}
+
+table{
+    margin-top: 30px;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s, text-shadow 0.3s, padding 0.3s;
+}
+
+h1:hover{
+    color: #40474e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+}
+
+.btn-transition{
+    transition: width 1s;
+    width: 225px;
+    height: 50px;       
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+.btn-transition:hover{
+    width: 250px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 2px rgba(240, 237, 237, 0.768);
+}   
+
+.btn-icon{
+    transition: 1s;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-icon:hover{
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 2px rgba(240, 237, 237, 0.768);
+}
+
+.btn-regresar {
+    width: 180px;
+    height: 45px;
+}
+
+.btn-regresar:hover {
+    width: 200px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 2px rgba(240, 237, 237, 0.768);
+}
