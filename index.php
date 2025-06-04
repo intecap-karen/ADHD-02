@@ -8,6 +8,8 @@
 <body>
     <h1>Menu principal</h1>
     <a href="vistas/vista_regiones.php">Regiones</a>
+    <a href="vistas/vista_ciudadanos.php">Ciudadanos</a>
+    <a href="prueba.php">Prueba</a>
     <br>
 </body>
 </html>
