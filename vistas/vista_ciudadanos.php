@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <a href="../vistas_card/vista_regiones_card.php" class="btn btn-secondary btn-transition">Regiones en formato card</a>
+        <a href="../vistas_card/vista_ciudadanos_card.php" class="btn btn-secondary btn-transition">Regiones en formato card</a>
         <table class="table table-striped display" id="miTabla">
             <thead>
                 <tr>
